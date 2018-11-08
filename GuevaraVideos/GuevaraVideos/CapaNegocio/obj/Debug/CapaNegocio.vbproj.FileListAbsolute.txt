@@ -1,0 +1,17 @@
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaNegocio.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaNegocio.pdb
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaNegocio.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaDatos.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaEntidad.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaDatos.pdb
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaDatos.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaEntidad.pdb
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\bin\Debug\CapaEntidad.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.vbprojAssemblyReference.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.Resources.resources
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.vbproj.GenerateResource.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.vbproj.CopyComplete
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaNegocio\obj\Debug\CapaNegocio.pdb

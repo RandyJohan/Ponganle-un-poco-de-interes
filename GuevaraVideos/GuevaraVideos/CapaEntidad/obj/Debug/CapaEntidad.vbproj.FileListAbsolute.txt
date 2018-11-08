@@ -1,0 +1,10 @@
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\bin\Debug\CapaEntidad.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\bin\Debug\CapaEntidad.pdb
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\bin\Debug\CapaEntidad.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.vbprojAssemblyReference.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.Resources.resources
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.vbproj.GenerateResource.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.vbproj.CoreCompileInputs.cache
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.dll
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.xml
+C:\Users\Lenovox\source\repos\GuevaraVideos\CapaEntidad\obj\Debug\CapaEntidad.pdb

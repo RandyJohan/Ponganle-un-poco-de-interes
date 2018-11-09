@@ -45,10 +45,12 @@
                     <asp:TextBox ID="txtEnvia" runat="server"></asp:TextBox>
                     <br />
                     <asp:Label ID="lblpass" runat="server" Text="Password: "></asp:Label>
-                    <asp:TextBox ID="txtpassword" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="txtpassword" runat="server" ViewStateMode="Disabled"></asp:TextBox>
                     <br />
                     <asp:Label ID="lblRecibe" runat="server" Text="To: "></asp:Label>
                     <asp:TextBox ID="txtRecibe" runat="server"></asp:TextBox>
+                    <br />
+                    <br />
                     <br />
                     <asp:Button ID="btnEnviar" runat="server" Text="Enviar correo" />
                 </td>

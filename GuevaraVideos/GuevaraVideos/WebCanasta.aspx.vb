@@ -107,10 +107,13 @@ Public Class WebCanasta
         recibe = txtRecibe.Text
 
         Dim mensaje As String
-        mensaje = "Hola, mensaje de prueba"
+        mensaje = "Detalle Decimal compra"
 
+        Dim ruta As String
+
+        ruta = "C:\Users\anton\Downloads\Compra.pdf"
         Dim email As New Email
-        email.enviar(from, password, recibe, mensaje)
+        email.enviar(from, password, recibe, mensaje, ruta)
     End Sub
 
     Protected Sub btnGenerarPDF_Click(sender As Object, e As EventArgs) Handles btnGenerarPDF.Click

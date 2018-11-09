@@ -93,7 +93,10 @@ Public Class WebCanasta
     End Sub
 
     Protected Sub btnEnviar_Click(sender As Object, e As EventArgs) Handles btnEnviar.Click
-        enviar_correo()
+        'enviar_correo()
+        Dim ruta As String
+        ruta = FileUpload1.FileName
+        TextBox2.Text = ruta
     End Sub
 
     Sub enviar_correo()

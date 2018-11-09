@@ -15,6 +15,7 @@ Public Class Email
             m.Body = mensaje
             m.IsBodyHtml = True
             Dim archivo As New Attachment(ruta)
+            m.Subject = "Detalle de Compra de vídeos"
             m.Attachments.Add(archivo)
             smtp.Host = "smtp.gmail.com"
             smtp.Port = 587

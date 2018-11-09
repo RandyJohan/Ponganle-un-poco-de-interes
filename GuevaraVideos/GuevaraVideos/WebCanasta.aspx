@@ -44,6 +44,9 @@
 
                     <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar pdf" />
 
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+
                     <br />
                     <br />
                     <asp:Label ID="lblRecibe" runat="server" Text="To: "></asp:Label>

@@ -86,15 +86,6 @@ Partial Public Class WebCanasta
     Protected WithEvents Button2 As Global.System.Web.UI.WebControls.Button
     
     '''<summary>
-    '''Control btnGenerarDocumento.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents btnGenerarDocumento As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
     '''Control btnGrabar.
     '''</summary>
     '''<remarks>
@@ -111,42 +102,6 @@ Partial Public Class WebCanasta
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
     Protected WithEvents btnGenerarPDF As Global.System.Web.UI.WebControls.Button
-    
-    '''<summary>
-    '''Control lblEnvia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblEnvia As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Control txtEnvia.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txtEnvia As Global.System.Web.UI.WebControls.TextBox
-    
-    '''<summary>
-    '''Control lblpass.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents lblpass As Global.System.Web.UI.WebControls.Label
-    
-    '''<summary>
-    '''Control txtpassword.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents txtpassword As Global.System.Web.UI.WebControls.TextBox
     
     '''<summary>
     '''Control lblRecibe.

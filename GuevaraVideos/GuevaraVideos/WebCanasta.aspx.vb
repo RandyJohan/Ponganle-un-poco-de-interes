@@ -21,8 +21,7 @@ Public Class WebCanasta
         Call Button1_Click(Button1, Nothing)
         txtFecha.Text = Date.Now.ToString("dd/MM/yyyy")
     End Sub
-
-    Protected Sub btnGenerarDocumento_Click(sender As Object, e As EventArgs) Handles btnGenerarDocumento.Click
+    Protected Sub btnGrabar_Click(sender As Object, e As EventArgs) Handles btnGrabar.Click
         Dim oDocumento As New DocumentosCN
         Dim errorCodCliente As Boolean
         errorCodCliente = False
@@ -33,9 +32,7 @@ Public Class WebCanasta
             Dim oCoger As New DocumentosCN
             txtCoddocumento.Text = oCoger.CogerCoddocumento()
         End If
-    End Sub
 
-    Protected Sub btnGrabar_Click(sender As Object, e As EventArgs) Handles btnGrabar.Click
         Dim i As Integer
         Dim prec As Double
         Dim cod As String
@@ -66,7 +63,6 @@ Public Class WebCanasta
         End If
         If (cont = GvwCarrito.Rows.Count) Then
             MsgBox("Registro Guardado")
-            Response.Redirect("WebCarrito.aspx")
         End If
     End Sub
 
@@ -76,10 +72,12 @@ Public Class WebCanasta
         Dim cod As String
         Dim cant As Integer
         Dim obj As DSVideo = CType(Session("Canasta"), DSVideo)
+        Dim subtotal As Decimal
         For i = 0 To GvwCarrito.Rows.Count - 1
             cod = (GvwCarrito.Rows(i).Cells(0).Text)
             prec = Double.Parse(GvwCarrito.Rows(i).Cells(1).Text)
             cant = CType(GvwCarrito.Rows(i).Cells(2).FindControl("TextBox1"), TextBox).Text
+            subtotal = prec * cant
             'Actualiza la canasta
             For Each objDR In obj.Videos.Rows
                 If objDR("codvideo") = cod Then
@@ -100,9 +98,9 @@ Public Class WebCanasta
 
     Sub enviar_correo()
         Dim from As String
-        from = txtEnvia.Text
+        from = "antonio.jo2206@gmail.com"
         Dim password As String
-        password = txtpassword.Text
+        password = "faj221822"
         Dim recibe As String
         recibe = txtRecibe.Text
 

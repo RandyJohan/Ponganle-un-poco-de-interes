@@ -255,15 +255,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:GuevaraVideos.WebCanasta._btnGenerarDocumento">
-<summary>
-Control btnGenerarDocumento.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:GuevaraVideos.WebCanasta._btnGrabar">
 <summary>
 Control btnGrabar.
@@ -276,42 +267,6 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:GuevaraVideos.WebCanasta._btnGenerarPDF">
 <summary>
 Control btnGenerarPDF.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:GuevaraVideos.WebCanasta._lblEnvia">
-<summary>
-Control lblEnvia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:GuevaraVideos.WebCanasta._txtEnvia">
-<summary>
-Control txtEnvia.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:GuevaraVideos.WebCanasta._lblpass">
-<summary>
-Control lblpass.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
-<member name="F:GuevaraVideos.WebCanasta._txtpassword">
-<summary>
-Control txtpassword.
 </summary>
 <remarks>
 Campo generado automáticamente.

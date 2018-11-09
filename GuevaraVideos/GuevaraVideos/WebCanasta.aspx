@@ -18,6 +18,11 @@
                         <asp:TextBox ID="TextBox1" runat="server" Text='<%# Bind("cantidad") %>'></asp:TextBox>
                     </ItemTemplate>
                 </asp:TemplateField>
+                <asp:TemplateField HeaderText="Subtotal">
+                    <ItemTemplate>
+                        <asp:TextBox ID="txtSubtotal" runat="server" Text='<%# Bind("cantidad") * Bind("precio") %>'></asp:TextBox>
+                    </ItemTemplate>
+                </asp:TemplateField>
             </Columns>
         </asp:GridView>
         <br />
@@ -35,17 +40,11 @@
                 <td>
                     <asp:Button ID="Button1" runat="server" Text="Actualizar Datos" />
                     <asp:Button ID="Button2" runat="server" Text="Continuar Comprando" />
-                    <asp:Button ID="btnGenerarDocumento" runat="server" Text="Generar Documento" />
                     <asp:Button ID="btnGrabar" runat="server" Text="Grabar Compra" />
 
                     <asp:Button ID="btnGenerarPDF" runat="server" Text="Generar pdf" />
 
                     <br />
-                    <asp:Label ID="lblEnvia" runat="server" Text="De:"></asp:Label>
-                    <asp:TextBox ID="txtEnvia" runat="server"></asp:TextBox>
-                    <br />
-                    <asp:Label ID="lblpass" runat="server" Text="Password: "></asp:Label>
-                    <asp:TextBox ID="txtpassword" runat="server" ViewStateMode="Disabled"></asp:TextBox>
                     <br />
                     <asp:Label ID="lblRecibe" runat="server" Text="To: "></asp:Label>
                     <asp:TextBox ID="txtRecibe" runat="server"></asp:TextBox>
